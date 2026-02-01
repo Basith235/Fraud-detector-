@@ -1,1 +1,1 @@
-web: python startup_api.py
+web: uvicorn startup_api:app --host 0.0.0.0 --port 10000
